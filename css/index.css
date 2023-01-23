@@ -2,7 +2,7 @@
 
 * {
   /* font-family: "Inter", sans-serif; */
-  font-family: "Rubik Distressed", cursive;
+  font-family: "Rubik Distressed";
   font-weight: 200;
   font-size: 28px;
   line-height: 150%;
@@ -12,7 +12,7 @@ main {
   text-align: center;
   display: flex;
   margin-bottom: 50px;
-  background: linear-gradient(#8b5252, #251d1d);
+  background: linear-gradient(#927fb8, #251d1d);
   /* align-content: space-between; */
 }
 
@@ -49,14 +49,16 @@ main {
 }
 
 .informe {
-  font-size: 15px;
+  font-weight: lighter;
+  font-size: 17px;
+  color: rgba(221, 18, 18, 0.808);
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(#8b5252, #251d1d);
+  background: linear-gradient(#9e75eb, #251d1d);
 }
 
 .inputTxt {
