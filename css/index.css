@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Distressed&display=swap");
+
+* {
+  /* font-family: "Inter", sans-serif; */
+  font-family: "Rubik Distressed", cursive;
+  font-weight: 200;
+  font-size: 28px;
+  line-height: 150%;
+}
+
+main {
+  text-align: center;
+  display: flex;
+  margin-bottom: 50px;
+  background: linear-gradient(#8b5252, #251d1d);
+  /* align-content: space-between; */
+}
+
+.mensaje {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 90px;
+  background-image: url("imagenes/muñeco.png");
+  background-repeat: no-repeat;
+  background-position: 18px;
+  background-size: 300px;
+}
+
+.copiar {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 205px;
+}
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 3em;
+}
+
+.encriptar {
+  background-color: darkblue;
+  color: white;
+}
+
+.desencriptar {
+  margin-left: 30px;
+}
+
+.informe {
+  font-size: 15px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#8b5252, #251d1d);
+}
+
+.inputTxt {
+  margin-left: 2em;
+}
+
+.mensaje-box {
+  margin-top: 1.5em;
+}
+
+textarea {
+  box-shadow: 10px 10px 30px 10px #000000;
+}
