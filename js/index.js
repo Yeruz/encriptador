@@ -8,7 +8,6 @@ btnCopy.style.display = "none";
 function btnEncriptar() {
   const textoEncriptado = encriptar(inputTexto.value);
   mensaje.value = textoEncriptado;
-  mensaje.style.backgroundImage = "none";
   inputTexto.value = "";
   btnCopy.style.display = "block";
 }
