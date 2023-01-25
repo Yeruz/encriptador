@@ -12,7 +12,8 @@ main {
   text-align: center;
   display: flex;
   margin-bottom: 50px;
-  background: linear-gradient(#927fb8, #251d1d);
+  background-color: #ffdd90;
+  border-radius: 15px;
   /* align-content: space-between; */
 }
 
@@ -24,12 +25,14 @@ main {
   background-repeat: no-repeat;
   background-position: 18px;
   background-size: 300px;
+  border-radius: 15px;
 }
 
 .copiar {
   position: relative;
   margin-top: 20px;
   margin-left: 205px;
+  border-radius: 24px;
 }
 
 .botones {
@@ -42,10 +45,12 @@ main {
 .encriptar {
   background-color: darkblue;
   color: white;
+  border-radius: 24px;
 }
 
 .desencriptar {
   margin-left: 30px;
+  border-radius: 24px;
 }
 
 .informe {
@@ -58,17 +63,25 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(#9e75eb, #251d1d);
+  background-color: #ffdd90;
+  border-radius: 15px;
 }
-
 .inputTxt {
   margin-left: 2em;
+  border-radius: 15px;
 }
 
 .mensaje-box {
   margin-top: 1.5em;
+  height: 360px;
 }
 
 textarea {
   box-shadow: 10px 10px 30px 10px #000000;
+}
+
+footer {
+  border-radius: 15px;
+  background-color: #ffdd90;
+  text-align: center;
 }
