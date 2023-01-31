@@ -1,41 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Encriptador</title>
-  <link rel="stylesheet" href="./css/index.css">
+  <title>CIFRAR - DESCIFRAR</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
   <header>
-    <h1><img src="./media/icons8-año-del-tigre-96.png" alt="Logo">
-    </h1>
-    <p>ENCRIPTADOR</p>
+    <div class="logo">
+      <img class="logo1" src="./media/Logo1.png" alt="Logo Yeruz">
+      <nav>
+        <h1 class="title">CIFRAR - DESCIFRAR</h1>
+      </nav>
+    </div>
   </header>
   <main>
-    <section>
-      <div class="oculto">
-        <h4 class="informe">No carácteres especiales e ingresa letras minúsculas y sin acento </h4>
+    <section class="msgIngresado">
+      <div class="mensajeInsert">
+        <textarea autofocus class="txtInsertado" placeholder="Ingrese el Mensaje ..." spellcheck="false"></textarea>
       </div>
-      <textarea class="inputTxt" cols="30" rows="5" placeholder="Ingrese texto aquí"></textarea>
-      <div class="botones">
-        <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
-        <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+      <div class="cajaBtns">
+        <div class="encriptar">
+          <input type="button" class="btnEncriptar btn-three" value="Encriptar">
+        </div>
+        <div class="desencriptar">
+          <input type="button" class="btnDesencriptar" value="Desencriptar">
+        </div>
       </div>
+      <!-- <div class="btnLimpiar">
+        <input type="button" class="btnLimpiar" value="Limpiar">
+      </div> -->
     </section>
-    <section class="mensaje-box">
-      <textarea class="mensaje" cols="25" rows="6"></textarea>
-      <button class="copiar" onclick="copiar()">Copiar</button>
+    <section class="msgDescifrado">
+      <div class="cajaImg">
+        <img src="./media/search1.png" alt="Ninja Buscando">
+      </div>
+      <div class="cajaAdvertencia">
+        <h3>Sin Mensajes</h3>
+      </div>
+      <div class="cajaLeyenda">
+        <legend>Ingresa Texto a Cifrar o Descifrar</legend>
+      </div>
+      <div class="resultadoFinal">
+        <div class="cajaResultado">
+          <h3>Mensaje Encriptado:</h3>
+          <p class="txtResultado"></p>
+        </div>
+        <div class="cajaCopiar">
+          <input type="button" value="Copiar" class="btnCopiar">
+        </div>
+      </div>
     </section>
   </main>
   <footer>
-    <p>© 2023 Todos los derechos reservados por Yeruz. </p>
+    <p>&copy Copyright Yeruz, todos los derechos reservados - 2023</p>
   </footer>
-  <script src="./js/index.js"></script>
-
+  <script src="index.js"></script>
 </body>
 
 </html>
